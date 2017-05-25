@@ -77,5 +77,5 @@ Here is a basic config file with default values:
     #   syslog.LOG_INFO
     #   syslog.LOG_WARNING
     #   syslog.LOG_ERR
-    LOG_LEVEL = logging.DEBUG
+    LOG_LEVEL = syslog.LOG_DEBUG
 
