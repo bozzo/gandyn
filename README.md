@@ -73,13 +73,9 @@ Here is a basic config file with default values:
     RECORD = {'type':'A', 'name':'@'}
     
     #Log level of the script. Values are :
-    #   logging.DEBUG
-    #   logging.INFO
-    #   logging.WARNING
-    #   logging.ERROR
-    #   logging.CRITICAL
+    #   syslog.LOG_DEBUG
+    #   syslog.LOG_INFO
+    #   syslog.LOG_WARNING
+    #   syslog.LOG_ERR
     LOG_LEVEL = logging.DEBUG
-    
-    #Path of the log file
-    LOG_FILE = 'gandyn.log'
 
