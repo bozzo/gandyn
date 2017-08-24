@@ -155,7 +155,7 @@ def main(argv, global_vars, local_vars):
 		if current_ip_address != previous_ip_address:
 			# update record value
 			gandi_updater.update_record_value(current_ip_address, TTL)
-			syslog.syslog(syslog.LOG_INFO('DNS updated'))
+			syslog.syslog(syslog.LOG_INFO, 'DNS updated')
 		else:
 			syslog.syslog(syslog.LOG_DEBUG, 'Public IP address unchanged. Nothing to do.')
 		syslog.syslog(syslog.LOG_INFO, "Finished")
